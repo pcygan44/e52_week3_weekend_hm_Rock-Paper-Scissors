@@ -1,8 +1,6 @@
-from typing_extensions import ParamSpecArgs
 from models.player import Player
 
-player1 = Player ("Jim", "paper" )
-player2 = Player ("Tom", "rock")
+player1 = Player ("Jim", "rock")
+player2 = Player ("Tom", "paper")
 
-players = [player1, player2]
-
+playerd = [player1, player2]
