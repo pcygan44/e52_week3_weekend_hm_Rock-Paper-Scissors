@@ -1,5 +1,5 @@
 from typing_extensions import ParamSpecArgs
-from models.players import Player
+from models.player import Player
 
 player1 = Player ("Jim", "paper" )
 player2 = Player ("Tom", "rock")
