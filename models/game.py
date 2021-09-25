@@ -1,27 +1,27 @@
 from models.player import Player
 from models.players import players
 
-def game(self, player1, player2):
+def game( player1, player2):
     if player1.choice == "rock" and player2.choice == "rock":
-        print(None)
+        return(None)
     
     elif player1.choice == "paper" and player2.choice == "paper":
-        print(None)
+        return(None)
 
     elif player1.choice == "scissors" and player2.choice == "scissors":
-        print(None)
+        return(None)
 
     elif player1.choice == "scissors" and player2.choice == "paper":
-        print("Player1 wins with scissors")
+        return("Player1 wins with scissors")
 
     elif player1.choice == "paper" and player2.choice == "rock":
-        print("Player1 wins with paper")
+        return("Player1 wins with paper")
 
     elif player1.choice == "rock" and player2.choice == "scissors":
-        print("Player1 wins with rock")
+        return("Player1 wins with rock")
 
     elif player1.choice == "rock" and player2.choice == "paper":
-        print("Player2 wins with paper")
+        return("Player2 wins with paper")
 
     elif player1.choice == "paper" and player2.choice == "scissors":
         print("Player2 wins with scissors")
