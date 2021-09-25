@@ -10,6 +10,7 @@ class TestPlayers(unittest.TestCase):
     def setUp(self):
         self.player1 = Player ("Jim", "paper" )
         self.player2 = Player ("Tom", "rock")
+        
 
 
     def test_player_name(self):

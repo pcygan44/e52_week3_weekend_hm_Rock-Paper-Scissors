@@ -1,5 +1,5 @@
-from player import Players
-from players import players
+from models.player import Player
+from models.players import players
 
 def game(self, player1, player2):
     if player1.choice == "rock" and player2.choice == "rock":
